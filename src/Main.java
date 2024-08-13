@@ -11,7 +11,7 @@ public class Main {
         SimpleDateFormat dateFormat;
         SimpleDateFormat timeFormat;
         BankAccount account;
-        TaxCalculator2024 tax;
+        TaxCalculator_1 tax;
         AccountBookRun accountBook;
 
         User user = new User(" nasfan", "kalmunai", "0765401157");
@@ -47,7 +47,7 @@ public class Main {
                     account.show();
                     break;
                 case 4:
-                    tax = new TaxCalculator2024();
+                    tax = new TaxCalculator_1();
                     tax.calculateTax();
                     break;
                 case 5:
