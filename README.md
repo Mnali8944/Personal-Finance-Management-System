@@ -5,6 +5,7 @@ tax calculations. The system aims to provide users with a convenient and secure 
 track their financial activities and make informed decisions.
 
 2. Classes, their attributes, and methods used
+   
 2.1 User Class
 - Attributes:
 - name: String
